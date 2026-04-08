@@ -71,7 +71,6 @@ router.get('/', async (req, res) => {
         totalPages: Math.ceil(totalCount / limitPerPage)
       }
     })
-    
   } catch (e) {
     console.error(`GET /subjects error: ${e}`)
     res.status(500).json({ error: 'Failed to get subjects' })
