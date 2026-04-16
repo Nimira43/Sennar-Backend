@@ -1,4 +1,0 @@
-TRUNCATE TABLE subjects RESTART IDENTITY CASCADE;
-TRUNCATE TABLE departments RESTART IDENTITY CASCADE;
-
-After using test data run the above command in SQL Editor in Neon to reset database. Then seed the real data.
